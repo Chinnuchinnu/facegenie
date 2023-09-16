@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke_Testing-suite]">
+  <test thread-count="5" name="smoke test Day1(failed)">
+    <classes>
+      <class name="testNgFreamework.DataProviderAnnotation">
+        <methods>
+          <include name="a1"/>
+          <include name="openFbApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- testNgFreamework.DataProviderAnnotation -->
+      <class name="testNgFreamework.IntenetSpeed">
+        <methods>
+          <include name="intenetSpeed"/>
+          <include name="a1"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- testNgFreamework.IntenetSpeed -->
+    </classes>
+  </test> <!-- smoke test Day1(failed) -->
+</suite> <!-- Failed suite [Smoke_Testing-suite] -->
